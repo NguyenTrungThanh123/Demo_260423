@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Cột 1</td>
+                <td>Cột 2</td>
+                <td>Cột 3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hàng 1 Cột 1</td>
+                <td>Hàng 1 Cột 2</td>
+                <td>Hàng 1 Cột 3</td>
+            </tr>
+            <tr>
+                <td>Hàng 2 Cột 1</td>
+                <td>Hàng 2 Cột 2</td>
+                <td>Hàng 2 Cột 3</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <pre style="background-color: antiquewhite;padding: 20px;">
+        Em hãy dùng vòng lặp để tạo ra 1 ứng dụng sinh bảng tự động tương tự như :
+        https://codebeautify.org/html-table-generator 
+        Có thể nhập vào số cột và số hàng trong bảng . 
+        Sau khi ấn nút "Tạo bảng tự động" sẽ sinh ra 1 bảng table trong thẻ div có id là "target" bên dưới
+        Nếu quên kiến thức về table html em có thể xem tại đây :
+        https://www.w3schools.com/html/html_tables.asp hoặc
+        https://webcoban.vn/html/cach-tao-bang-table-trong-html.html 
+        Gợi ý : dùng 2 vòng lặp for lồng nhau có thể làm được bài này
+    </pre>
+    
+    <div class="container">
+        <h3>Chương trình tạo bảng tự động</h3>
+        <div>
+            <label for="">Số cột</label>
+            <input type="text" name="col" id="col">
+        </div>
+        <div>
+            <label for="">Số hàng</label>
+            <input type="text" name="row" id="row">
+        </div>
+        <div>
+            <button id="table-generator">Tạo bảng tự động</button>
+        </div>
+    </div>
+    
+    <div id="target">
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

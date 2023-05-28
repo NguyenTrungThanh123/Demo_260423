@@ -1,0 +1,11 @@
+thead td {
+    font-weight: bold;
+}
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.container > div {
+    margin: 10px;
+}
